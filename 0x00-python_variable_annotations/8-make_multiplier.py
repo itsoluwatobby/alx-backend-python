@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 from typing import Callable
 """
 a type-annotated function make_multiplier that takes a float

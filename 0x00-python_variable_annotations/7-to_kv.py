@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 from typing import Union, Tuple
 """
 type-annotated function to_kv that takes a string k and an int OR
