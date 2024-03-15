@@ -5,7 +5,7 @@ and returns the floor of the float.
 """
 
 
-def floor(n: float) -> float:
+def floor(n: float):
     """
     A function that takes in a float n as argument and
     turn the floor of a float
