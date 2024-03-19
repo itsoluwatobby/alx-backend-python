@@ -10,7 +10,6 @@ Notice that the total runtime is roughly 10 seconds, explain it
 to yourself.
 """
 import asyncio
-from typing import List
 from time import perf_counter
 async_comprehension = __import__('1-async_comprehension').async_comprehension
 
