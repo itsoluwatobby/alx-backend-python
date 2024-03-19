@@ -8,12 +8,10 @@ random module.
 """
 import asyncio
 import random
-from typing import List
 
 
 async def async_generator():
     """A coroutine that loops 10 times"""
-    delays: List[float] = []
     for _ in range(10):
         await asyncio.sleep(1)
         yield random.uniform(0, 10)
